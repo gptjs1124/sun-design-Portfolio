@@ -13,6 +13,9 @@ public class HomeController {
 
 	@RequestMapping("/")
 	public String home() {
+		/* 잘 들어갔는지 테스트 */
+		/* 잘 들어갔는지 테스트 */
+		/* 잘 들어갔는지 테스트 */
 		return "index";
 	}
 	
