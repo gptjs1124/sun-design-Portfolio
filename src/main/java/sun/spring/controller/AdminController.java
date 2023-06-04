@@ -11,4 +11,10 @@ public class AdminController {
 	public String adminhome() {
 		return "/admin/index";
 	}
+	
+	@RequestMapping("adminproc")
+	public String adminproc() {
+		
+		return "";
+	}
 }

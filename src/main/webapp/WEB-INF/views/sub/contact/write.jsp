@@ -87,6 +87,7 @@
 					</table>
 					<div class="center send">
 						<input type="submit" id="sub_btn" value="send">
+						<button id="sendAligo" type="button">알리고 메시지 발송</button>
 					</div>
 				</div>
 			</form>

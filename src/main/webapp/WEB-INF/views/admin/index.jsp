@@ -10,13 +10,14 @@
 		<li><img src="/resources/img/logo_w.png"></li>
 		<li>관리자 모드로 들어 갈 수 있는 로그인페이지입니다.</li>
 		<li>
-			<form>
+			<form action="adminproc" method="post" id="adminproc">
 				<input type="text" id="id" placeholder="id">
 				<input type="password" id="pw" placeholder="password">
 				<input type="submit">
 			</form>
 		</li>
 	</ul>
-	<iframe frameborder="0" width="120%" height="140%" src="https://www.youtube.com/embed/X6dJEAs0-Gk?start=1&end=20&autoplay=1&amp;mute=1&list=PLfEw4vp4frCccHGFdSMLt6zUJpaaojlK_" frameborder="0" allow="autoplay encrypted-media" allowfullscreen ></iframe>
+	<iframe frameborder="0" width="120%" height="140%" src="https://www.youtube.com/embed/X6dJEAs0-Gk?start=1&end=20&autoplay=1&amp;mute=1&list=PLfEw4vp4frCccHGFdSMLt6zUJpaaojlK_" frameborder="0" allow="autoplay encrypted-media" allowfullscreen >
+	</iframe>
 </div>
 

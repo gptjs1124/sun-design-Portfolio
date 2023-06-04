@@ -1,4 +1,8 @@
 $(function(){
+	$('#sendAligo').on('click', function(){
+		location.href="/aligo/aligoAPI";
+	});
+
 	$('#sub_btn').on('click',function(){
 		var result = confirm('보내기 버튼을 눌렀을 때, 수정이 불가능 합니다. 입력하신 정보가 맞는지 확인해주세요.');
 		if(result == true){
